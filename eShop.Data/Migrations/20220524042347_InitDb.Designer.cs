@@ -10,7 +10,7 @@ using eShop.Data.EF;
 namespace eShop.Data.Migrations
 {
     [DbContext(typeof(EShopDbContext))]
-    [Migration("20220524032258_InitDb")]
+    [Migration("20220524042347_InitDb")]
     partial class InitDb
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -182,7 +182,7 @@ namespace eShop.Data.Migrations
                         new
                         {
                             Id = new Guid("8d04dce2-969a-435d-bba4-df3f325983dc"),
-                            ConcurrencyStamp = "36bfb44f-054d-440c-ab46-962886aef2fb",
+                            ConcurrencyStamp = "c211da7a-de03-4de2-b3f6-723096ba011d",
                             Description = "Administrator role",
                             Name = "admin",
                             NormalizedName = "admin"
@@ -259,7 +259,7 @@ namespace eShop.Data.Migrations
                         {
                             Id = new Guid("69bd714f-9576-45ba-b5b7-f00649be00de"),
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "9d2f8052-5922-4162-93ff-22f118123fc7",
+                            ConcurrencyStamp = "b989312e-27f7-4421-b7ca-eb62496397e7",
                             Dob = new DateTime(2020, 1, 31, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Email = "tedu.international@gmail.com",
                             EmailConfirmed = true,
@@ -268,7 +268,7 @@ namespace eShop.Data.Migrations
                             LockoutEnabled = false,
                             NormalizedEmail = "tedu.international@gmail.com",
                             NormalizedUserName = "admin",
-                            PasswordHash = "AQAAAAEAACcQAAAAEAMN7TJol2g+gRW1Bqc+BRJpXX5T3SRMp7/sSQFpzIknPGkafpsQyb/GTIHcsnKe2g==",
+                            PasswordHash = "AQAAAAEAACcQAAAAENMnoEOVnjvUkk8/mkO/IQ6JW+5w95H0eJ1qrdCH6eUuCl5QWk9+NvJCQoZsND9rHw==",
                             PhoneNumberConfirmed = false,
                             SecurityStamp = "",
                             TwoFactorEnabled = false,
@@ -604,7 +604,7 @@ namespace eShop.Data.Migrations
                         new
                         {
                             Id = 1,
-                            DateCreated = new DateTime(2022, 5, 24, 10, 22, 58, 470, DateTimeKind.Local).AddTicks(2444),
+                            DateCreated = new DateTime(2022, 5, 24, 11, 23, 47, 333, DateTimeKind.Local).AddTicks(6006),
                             OriginalPrice = 100000m,
                             Price = 200000m,
                             Stock = 0,

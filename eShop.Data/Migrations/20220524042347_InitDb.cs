@@ -466,7 +466,7 @@ namespace eShop.Data.Migrations
             migrationBuilder.InsertData(
                 table: "AppRoles",
                 columns: new[] { "Id", "ConcurrencyStamp", "Description", "Name", "NormalizedName" },
-                values: new object[] { new Guid("8d04dce2-969a-435d-bba4-df3f325983dc"), "36bfb44f-054d-440c-ab46-962886aef2fb", "Administrator role", "admin", "admin" });
+                values: new object[] { new Guid("8d04dce2-969a-435d-bba4-df3f325983dc"), "c211da7a-de03-4de2-b3f6-723096ba011d", "Administrator role", "admin", "admin" });
 
             migrationBuilder.InsertData(
                 table: "AppUserRoles",
@@ -476,7 +476,7 @@ namespace eShop.Data.Migrations
             migrationBuilder.InsertData(
                 table: "AppUsers",
                 columns: new[] { "Id", "AccessFailedCount", "ConcurrencyStamp", "Dob", "Email", "EmailConfirmed", "FirstName", "LastName", "LockoutEnabled", "LockoutEnd", "NormalizedEmail", "NormalizedUserName", "PasswordHash", "PhoneNumber", "PhoneNumberConfirmed", "SecurityStamp", "TwoFactorEnabled", "UserName" },
-                values: new object[] { new Guid("69bd714f-9576-45ba-b5b7-f00649be00de"), 0, "9d2f8052-5922-4162-93ff-22f118123fc7", new DateTime(2020, 1, 31, 0, 0, 0, 0, DateTimeKind.Unspecified), "tedu.international@gmail.com", true, "Toan", "Bach", false, null, "tedu.international@gmail.com", "admin", "AQAAAAEAACcQAAAAEAMN7TJol2g+gRW1Bqc+BRJpXX5T3SRMp7/sSQFpzIknPGkafpsQyb/GTIHcsnKe2g==", null, false, "", false, "admin" });
+                values: new object[] { new Guid("69bd714f-9576-45ba-b5b7-f00649be00de"), 0, "b989312e-27f7-4421-b7ca-eb62496397e7", new DateTime(2020, 1, 31, 0, 0, 0, 0, DateTimeKind.Unspecified), "tedu.international@gmail.com", true, "Toan", "Bach", false, null, "tedu.international@gmail.com", "admin", "AQAAAAEAACcQAAAAENMnoEOVnjvUkk8/mkO/IQ6JW+5w95H0eJ1qrdCH6eUuCl5QWk9+NvJCQoZsND9rHw==", null, false, "", false, "admin" });
 
             migrationBuilder.InsertData(
                 table: "Categories",
@@ -499,7 +499,7 @@ namespace eShop.Data.Migrations
             migrationBuilder.InsertData(
                 table: "Products",
                 columns: new[] { "Id", "DateCreated", "IsFeatured", "OriginalPrice", "Price" },
-                values: new object[] { 1, new DateTime(2022, 5, 24, 10, 22, 58, 470, DateTimeKind.Local).AddTicks(2444), null, 100000m, 200000m });
+                values: new object[] { 1, new DateTime(2022, 5, 24, 11, 23, 47, 333, DateTimeKind.Local).AddTicks(6006), null, 100000m, 200000m });
 
             migrationBuilder.InsertData(
                 table: "Slides",
